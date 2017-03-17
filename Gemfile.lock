@@ -1,0 +1,59 @@
+GIT
+  remote: https://github.com/english/speculation.git
+  revision: b0dc17e57ca39151613e892f3022be68a9ab482e
+  specs:
+    speculation (0.3.0)
+      concurrent-ruby (~> 1.0)
+      rantly (~> 1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    binding_of_caller (0.7.2)
+      debug_inspector (>= 0.0.1)
+    byebug (9.0.6)
+    coderay (1.1.1)
+    concurrent-ruby (1.0.5)
+    concurrent-ruby (1.0.5-java)
+    debug_inspector (0.0.2)
+    ffi (1.9.18-java)
+    method_source (0.8.2)
+    minitest (5.10.1)
+    pry (0.10.4)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    pry (0.10.4-java)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+      spoon (~> 0.0)
+    pry-byebug (3.4.2)
+      byebug (~> 9.0)
+      pry (~> 0.10)
+    pry-doc (0.10.0)
+      pry (~> 0.9)
+      yard (~> 0.9)
+    pry-stack_explorer (0.4.9.2)
+      binding_of_caller (>= 0.7)
+      pry (>= 0.9.11)
+    rantly (1.0.0)
+    slop (3.6.0)
+    spoon (0.0.6)
+      ffi
+    yard (0.9.8)
+
+PLATFORMS
+  java
+  ruby
+
+DEPENDENCIES
+  minitest
+  pry
+  pry-byebug
+  pry-doc
+  pry-stack_explorer
+  speculation!
+
+BUNDLED WITH
+   1.14.6
